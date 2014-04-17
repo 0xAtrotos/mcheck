@@ -1,0 +1,11 @@
+Declare some files here. This file should only have the filenames or folder paths
+you need to check, one in each line, so make sure you delete everything else,
+including this text. 
+
+Examples:
+
+ - Local:
+C:\
+
+ - Network path(windows):
+\\10.10.10.10\backups\Monday\Back.tib
