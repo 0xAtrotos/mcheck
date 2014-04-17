@@ -51,10 +51,16 @@ func checkPath(file string) {
 
 func main() {
 
-	if len(os.Args[0]) != 0 {
-		checkPath(os.Args[0])
+	args := os.Args[1:]
+
+	if len(os.Args[1:]) != 0 {
+
+		checkPath(args[0])
+
 	} else {
+
 		check()
+
 	}
 
 }

@@ -5,7 +5,11 @@ including this text.
 Examples:
 
  - Local:
-C:\
+C:\Users\george\Downloads [windws]
+/home/george/Downloads [linux]
 
- - Network path(windows):
-\\10.10.10.10\backups\Monday\Back.tib
+ - Network path:
+\\x.x.x.x\backups\Monday\Back.tib [check specific file - windows]
+\\x.x.x.x\backups\Monday\ [check folder - windows]
+smb://x.x.x.x/backups/Monday/Back.tib [not tested yet - linux]
+
