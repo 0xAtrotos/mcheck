@@ -31,7 +31,12 @@ func check() {
 			panic(err)
 		}
 		since := check.ModTime()
-		fmt.Println(since)
+		size := check.Size()
+		fmt.Print(since)
+		fmt.Print(" - ")
+		mb := float64(size) / float64(1024) / float64(1024)
+		fmt.Printf("%.2f", mb)
+		fmt.Print("MB")
 		fmt.Println()
 	}
 
@@ -44,8 +49,13 @@ func checkPath(file string) {
 		panic(err)
 	}
 	since := check.ModTime()
+	size := check.Size()
 
-	fmt.Println(since)
+	fmt.Print(since)
+	fmt.Print(" - ")
+	mb := float64(size) / float64(1024) / float64(1024)
+	fmt.Printf("%.2f", mb)
+	fmt.Print("MB")
 
 }
 

@@ -7,8 +7,7 @@ of 100s of servers have been completed.
 
 Todo:
 -----
-1. Return file size
-2. Compare file size on disk with expected file size
-3. Compare modify date with current date and report out of date files
+1. Compare file size on disk with expected file size
+2. Compare modify date with current date and report out of date files
    - i.e. in the case of checking backups, this can indicate which backups have 
 	 failed or haven't finished yet
